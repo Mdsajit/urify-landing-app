@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'My_Clash_Display_bold';
+    src: url('../fonts/ClashDisplay-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'My_Clash_Display_regular';
+    src: url('../fonts/ClashDisplay-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'My_Clash_Display_semibold';
+    src: url('../fonts/ClashDisplay-Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'My_Clash_Display_medium';
+    src: url('../fonts/ClashDisplay-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'My_Clash_Display_light';
+    src: url('../fonts/ClashDisplay-Light.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.btn-download {
+    background-color: #000 !important;
+    color: #ffffff !important;
+    padding: 16px 46px !important;
+    border-radius: 4px !important;
+    font-size: 18px;
+    font-family: 'My_Clash_Display_medium' !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'My_Clash_Display_medium' !important;
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+    margin-left: 30px;
+    transition: .4s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F55 ;
+}
+
+.row {
+    padding: 100px 0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.urify_premium_box h2{
+color: #000;
+font-family: 'My_Clash_Display_semibold';
+font-size: 48px;
+font-weight: 600;
+line-height: 48px;
+text-transform: capitalize;
+}
+
+.urify_premium_box h6 {
+color: #F55;
+font-family: 'My_Clash_Display_medium';
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 2.88px;
+text-transform: uppercase;
+}
+
+.urify_premium_box_second{
+    padding-top: 32px;
+ }
+
+.urify_premium_box_second .box_one h3{
+    color: #000;
+    font-family: 'My_Clash_Display_semibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+
+.urify_premium_box_second .box_one p {
+    width: 638px;
+    color: #000;
+    font-family: 'My_Clash_Display_medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.5;
+    text-transform: capitalize;
+}
+
+.urify_premium_box_second .box_one img {
+    padding-right: 8px;
+}
+
+.img_right_box {
+    position: relative;
+}
+
+.main_img_part {
+
+}
+
+.img_right_box .on_hold_part {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.main_one .row {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.main_two .row {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.main_three .row {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.box_one .fa-bell {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background-color: #F55;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.img-left-box {
+    position: relative;
+}
+
+.img-left-box .img_left_second{
+    position: absolute;
+    width: 200px;
+    top: 38.5%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.box_one .star-img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background-color: #F55;
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.box_text p {
+    width: 540px !important;
+}
+
+
+.main_four {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.main_four h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'My_Clash_Display_semibold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.main_four h4 {
+    color: #000;
+    text-align: center;
+    font-family: 'My_Clash_Display_medium';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+
+.img-list {
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+ul  .first{
+    width: 40px;
+    height: 40px;
+}
+
+.img-list li img {
+    border-radius: 50%;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.box_one h5{
+    color: #000;
+    font-family: 'My_Clash_Display_semibold';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.frame_container {
+    position: relative;
+    padding: 20px 100px;
+    margin: 0 auto !important;
+}
+
+.frame_container img {
+    margin: 0 auto !important;
+    cursor: pointer;
+}
+
+
+.frame_container .color-bg{
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -270px;
+    left: -40px;
+    z-index: -1;
+}
+.quote_row {
+    padding: 10px 0;
+}
